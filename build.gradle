@@ -6,12 +6,11 @@ plugins {
 
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
-    implementation 'com.google.guava:guava:28.2-jre'
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.+'
 }
 
-application {
-}
+task teste(type:Test) {}
